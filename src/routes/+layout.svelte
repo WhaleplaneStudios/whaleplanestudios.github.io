@@ -1,5 +1,7 @@
-<script>
-    import "../app.css";
+<script lang="ts">
+	import '../app.css';
 </script>
 
-<slot />
+<body class="dark bg-slate-950">
+	<slot />
+</body>
