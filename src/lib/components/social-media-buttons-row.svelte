@@ -2,7 +2,7 @@
 	import { Button } from '$lib/components/ui/button/index.js';
 	import IconifyIcon from '@iconify/svelte';
 
-	$: socialMediaHoverText = '';
+	$: socialMediaHoverText = '<br/>';
 </script>
 
 <!-- Social media buttons, each with hover text changing -->
@@ -14,7 +14,7 @@
 			socialMediaHoverText = 'Chat with us on Discord!';
 		}}
 		on:mouseleave={() => {
-			socialMediaHoverText = '';
+			socialMediaHoverText = '<br/>';
 		}}
 	>
 		<IconifyIcon class="w-14 h-14" icon="ic:baseline-discord" />
@@ -27,7 +27,7 @@
 			socialMediaHoverText = 'Play our games on itch.io!';
 		}}
 		on:mouseleave={() => {
-			socialMediaHoverText = '';
+			socialMediaHoverText = '<br/>';
 		}}
 	>
 		<IconifyIcon class="w-12 h-12" icon="cib:itch-io" />
@@ -40,7 +40,7 @@
 			socialMediaHoverText = 'Watch our videos on YouTube!';
 		}}
 		on:mouseleave={() => {
-			socialMediaHoverText = '';
+			socialMediaHoverText = '<br/>';
 		}}
 	>
 		<IconifyIcon class="w-14 h-14" icon="mdi:youtube" />
@@ -53,7 +53,7 @@
 			socialMediaHoverText = 'Like us on Facebook!';
 		}}
 		on:mouseleave={() => {
-			socialMediaHoverText = '';
+			socialMediaHoverText = '<br/>';
 		}}
 	>
 		<IconifyIcon class="w-14 h-14" icon="ic:baseline-facebook" />
@@ -66,7 +66,7 @@
 			socialMediaHoverText = 'Follow us on Instagram!';
 		}}
 		on:mouseleave={() => {
-			socialMediaHoverText = '';
+			socialMediaHoverText = '<br/>';
 		}}
 	>
 		<IconifyIcon class="w-14 h-14" icon="ri:instagram-fill" />
@@ -74,6 +74,6 @@
 </div>
 
 <!-- Text to change on each hover -->
-<div class="flex justify-center mt-6 text-lg">
-	{socialMediaHoverText}
+<div class="grid justify-center mt-6 mb-10 text-lg">
+	{@html socialMediaHoverText}
 </div>
