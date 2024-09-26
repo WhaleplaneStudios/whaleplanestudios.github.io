@@ -2,19 +2,36 @@
 
 This is the repo for the WhaleplaneStudios website. It's just a small site to show off our games and display a bit of info about the company.
 
-## Developing
+## Tools
+
+- Github Pages (Hosting)
+- Sveltekit (Framework)
+- Tailwind (CSS)
+- shadcn-svelte (Components)
+
+
+## Development
 
 ```bash
-npm run dev
+pnpm run dev
 
 # or start the server and open the app in a new browser tab
-npm run dev -- --open
+pnpm run dev --open
 ```
+
 
 ## Building
 
-To create a production version:
+Before merging to main on Github Pages, you should build and preview the site.
+
+To build the production version:
 
 ```bash
-npm run build
+pnpm run build
+```
+
+Then to preview the production build:
+
+```bash
+pnpm run preview
 ```
