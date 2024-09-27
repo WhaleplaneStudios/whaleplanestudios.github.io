@@ -85,4 +85,25 @@
 	</div>
 {/if}
 
-{#if selectedTab === 'team'}team stuff go here{/if}
+{#if selectedTab === 'team'}
+	<div class="grid grid-rows-1 grid-col-2 grid-flow-col place-content-center mt-6 space-x-24">
+		<div class="flex flex-col items-center text-center">
+			<img alt="Jeremy" src="team-jeremy.jpg" class="w-72 rounded-full" />
+			<p class="text-2xl">Jeremy Neville</p>
+			<p class="text-large mb-2">President</p>
+			<i
+				><p class="text-xl">Top 3 favorite games:</p>
+				<p class="text-large mb-24">Jak and Daxter | Half-Life: Alyx | Minecraft</p>
+			</i>
+		</div>
+		<div class="flex flex-col items-center text-center">
+			<img alt="Jake" src="team-jake.jpg" class="w-72 rounded-full" />
+			<p class="text-2xl">Jake Facius</p>
+			<p class="text-large mb-2">Vice President</p>
+			<i
+				><p class="text-xl">Top 3 favorite games:</p>
+				<p class="text-large mb-24">Super Mario Sunshine | Return of the Obra Dinn | Portal 2</p>
+			</i>
+		</div>
+	</div>
+{/if}
