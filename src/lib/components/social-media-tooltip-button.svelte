@@ -11,7 +11,7 @@
 
 <Tooltip.Root openDelay={50}>
 	<Tooltip.Trigger asChild let:builder>
-		<Button builders={[builder]} href={link} size="icon" variant="outline">
+		<Button builders={[builder]} href={link} size="icon" variant="outline" target="_blank">
 			<IconifyIcon class={iconClass} {icon} />
 		</Button>
 	</Tooltip.Trigger>

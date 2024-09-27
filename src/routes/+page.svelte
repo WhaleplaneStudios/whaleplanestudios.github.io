@@ -71,16 +71,19 @@
 			altText="The Seven Seas"
 			hoveredImage="the-seven-seas-hovered.png"
 			unhoveredImage="the-seven-seas.png"
+			link="https://whaleplanestudios.itch.io/the-seven-seas"
 		/>
 		<GameHoverButton
 			altText="Rolliosis"
 			hoveredImage="rolliosis-hovered.png"
 			unhoveredImage="rolliosis.png"
+			link="https://whaleplanestudios.itch.io/rolliosis"
 		/>
 		<GameHoverButton
 			altText="Procedure"
 			hoveredImage="procedure-hovered.png"
 			unhoveredImage="procedure.png"
+			link="https://whaleplanestudios.itch.io/procedure"
 		/>
 	</div>
 {/if}

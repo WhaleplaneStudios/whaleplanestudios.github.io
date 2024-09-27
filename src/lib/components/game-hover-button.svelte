@@ -4,6 +4,7 @@
 	export let hoveredImage;
 	export let unhoveredImage;
 	export let altText;
+	export let link = '';
 
 	$: hovered = false;
 </script>
@@ -11,6 +12,8 @@
 <Button
 	variant="image"
 	size="game_tile"
+	href={link}
+	target="_blank"
 	on:mouseenter={() => (hovered = true)}
 	on:mouseleave={() => (hovered = false)}
 >
