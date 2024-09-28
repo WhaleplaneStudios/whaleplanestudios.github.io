@@ -6,13 +6,12 @@
 	export let link;
 	export let tooltipText;
 	export let icon;
-	export let iconClass = 'w-14 h-14';
 </script>
 
 <Tooltip.Root openDelay={50}>
 	<Tooltip.Trigger asChild let:builder>
 		<Button builders={[builder]} href={link} size="icon" variant="outline" target="_blank">
-			<IconifyIcon class={iconClass} {icon} />
+			<IconifyIcon class="w-8 h-8 lg:w-14 lg:h-14" {icon} />
 		</Button>
 	</Tooltip.Trigger>
 	<Tooltip.Content>

@@ -3,16 +3,32 @@
 	import SocialMediaTooltipButton from '$lib/components/social-media-tooltip-button.svelte';
 	import { Button } from '$lib/components/ui/button/index.js';
 
+	let innerWidth = 0;
+	let innerHeight = 0;
+
 	$: selectedTab = 'games';
+	$: isScreenPortrait = innerWidth * 1.33 <= innerHeight;
 </script>
 
-<!-- Logo banner -->
-<img alt="WhaleplaneStudios logo banner" src="banner-2024.png" />
+<!-- Record the current screen size for image switching -->
+<svelte:window bind:innerWidth bind:innerHeight />
 
+<!-- Logo banner -->
+<div class="w-full items-center">
+	<img
+		alt="WhaleplaneStudios logo banner"
+		src={isScreenPortrait ? 'banner-mobile-2024.png' : 'banner-2024.png'}
+		class="mx-auto"
+	/>
+</div>
+
+<!-- Buttons row -->
 <div class="flex justify-center">
-	<div class="grid grid-rows-1 grid-flow-col space-x-16 mt-10 mb-6">
-		<div class="justify-self-start space-x-2">
-			<!-- Nav Buttons -->
+	<div
+		class="grid grid-rows-2 lg:grid-rows-1 grid-flow-col space-y-2 lg:space-x-16 lg:space-y-0 mt-10 mb-6"
+	>
+		<!-- Nav buttons -->
+		<div class="justify-self-center lg:justify-self-start space-x-2">
 			<Button
 				size="icon"
 				variant={selectedTab === 'games' ? 'default' : 'outline'}
@@ -26,8 +42,8 @@
 				on:click={() => (selectedTab = 'team')}>Our Team</Button
 			>
 		</div>
-		<div class="justify-self-end space-x-2">
-			<!-- Social media links -->
+		<!-- Social media links -->
+		<div class="justify-self-center lg:justify-self-end space-x-2">
 			<SocialMediaTooltipButton
 				link="https://discord.gg/ggkatrDpmv"
 				tooltipText="Chat with us on Discord!"
@@ -57,9 +73,10 @@
 	</div>
 </div>
 
+<!-- Games tab -->
 {#if selectedTab === 'games'}
 	<!-- Games List -->
-	<div class="grid grid-rows-2 grid-col-3 grid-flow-col place-content-center mt-6">
+	<div class="grid grid-rows-5 lg:grid-rows-2 grid-col-3 grid-flow-col place-content-center mt-6">
 		<div class="row-span-2">
 			<GameHoverButton
 				altText="Gonzalo the Chicken Episode 1"
@@ -88,6 +105,7 @@
 	</div>
 {/if}
 
+<!-- Team tab -->
 {#if selectedTab === 'team'}
 	<div class="grid grid-rows-1 grid-col-2 grid-flow-col place-content-center mt-6 space-x-24">
 		<div class="flex flex-col items-center text-center">
