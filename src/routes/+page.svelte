@@ -1,0 +1,130 @@
+<script lang="ts">
+	import GameHoverButton from '$lib/components/game-hover-button.svelte';
+	import SocialMediaTooltipButton from '$lib/components/social-media-tooltip-button.svelte';
+	import { Button } from '$lib/components/ui/button/index.js';
+
+	let innerWidth = 0;
+	let innerHeight = 0;
+
+	$: selectedTab = 'games';
+	$: isScreenPortrait = innerWidth * 1.33 <= innerHeight;
+</script>
+
+<!-- Record the current screen size for image switching -->
+<svelte:window bind:innerWidth bind:innerHeight />
+
+<!-- Logo banner -->
+<div class="w-full items-center">
+	<img
+		alt="WhaleplaneStudios logo banner"
+		src={isScreenPortrait ? 'banner-mobile-2024.png' : 'banner-2024.png'}
+		class="mx-auto"
+	/>
+</div>
+
+<!-- Buttons row -->
+<div class="flex justify-center">
+	<div
+		class="grid grid-rows-2 lg:grid-rows-1 grid-flow-col space-y-2 lg:space-x-16 lg:space-y-0 mt-10 mb-6"
+	>
+		<!-- Nav buttons -->
+		<div class="justify-self-center lg:justify-self-start space-x-2">
+			<Button
+				size="icon"
+				variant={selectedTab === 'games' ? 'default' : 'outline'}
+				class="text-2xl min-w-fit px-3"
+				on:click={() => (selectedTab = 'games')}>Our Games</Button
+			>
+			<Button
+				size="icon"
+				variant={selectedTab === 'team' ? 'default' : 'outline'}
+				class="text-2xl min-w-fit px-3"
+				on:click={() => (selectedTab = 'team')}>Our Team</Button
+			>
+		</div>
+		<!-- Social media links -->
+		<div class="justify-self-center lg:justify-self-end space-x-2">
+			<SocialMediaTooltipButton
+				link="https://discord.gg/ggkatrDpmv"
+				tooltipText="Chat with us on Discord!"
+				icon="ic:baseline-discord"
+			/>
+			<SocialMediaTooltipButton
+				link="https://whaleplanestudios.itch.io/"
+				tooltipText="Play our games on itch.io!"
+				icon="cib:itch-io"
+			/>
+			<SocialMediaTooltipButton
+				link="https://www.youtube.com/channel/UCSk-EZSzULqEszKrE2j361Q"
+				tooltipText="Watch our videos on YouTube!"
+				icon="mdi:youtube"
+			/>
+			<SocialMediaTooltipButton
+				link="https://www.facebook.com/WhaleplaneStudios"
+				tooltipText="Like us on Facebook!"
+				icon="ic:baseline-facebook"
+			/>
+			<SocialMediaTooltipButton
+				link="https://www.instagram.com/whaleplanestudios/"
+				tooltipText="Follow us on Instagram!"
+				icon="ri:instagram-fill"
+			/>
+		</div>
+	</div>
+</div>
+
+<!-- Games tab -->
+{#if selectedTab === 'games'}
+	<!-- Games List -->
+	<div class="grid grid-rows-5 lg:grid-rows-2 grid-col-3 grid-flow-col place-content-center mt-6">
+		<div class="row-span-2">
+			<GameHoverButton
+				altText="Gonzalo the Chicken Episode 1"
+				hoveredImage="gonzalo-episode-1-hovered.png"
+				unhoveredImage="gonzalo-episode-1.png"
+			/>
+		</div>
+		<GameHoverButton
+			altText="The Seven Seas"
+			hoveredImage="the-seven-seas-hovered.png"
+			unhoveredImage="the-seven-seas.png"
+			link="https://whaleplanestudios.itch.io/the-seven-seas"
+		/>
+		<GameHoverButton
+			altText="Rolliosis"
+			hoveredImage="rolliosis-hovered.png"
+			unhoveredImage="rolliosis.png"
+			link="https://whaleplanestudios.itch.io/rolliosis"
+		/>
+		<GameHoverButton
+			altText="Procedure"
+			hoveredImage="procedure-hovered.png"
+			unhoveredImage="procedure.png"
+			link="https://whaleplanestudios.itch.io/procedure"
+		/>
+	</div>
+{/if}
+
+<!-- Team tab -->
+{#if selectedTab === 'team'}
+	<div class="grid grid-rows-1 grid-col-2 grid-flow-col place-content-center mt-6 space-x-24">
+		<div class="flex flex-col items-center text-center">
+			<img alt="Jeremy" src="team-jeremy.jpg" class="w-72 rounded-full" />
+			<p class="text-2xl">Jeremy Neville</p>
+			<p class="text-large mb-2">President</p>
+			<i
+				><p class="text-xl">Top 3 favorite games:</p>
+				<p class="text-large mb-24">Jak and Daxter | Half-Life: Alyx | Minecraft</p>
+			</i>
+		</div>
+		<div class="flex flex-col items-center text-center">
+			<img alt="Jake" src="team-jake.jpg" class="w-72 rounded-full" />
+			<p class="text-2xl">Jake Facius</p>
+			<p class="text-large mb-2">Vice President</p>
+			<i
+				><p class="text-xl">Top 3 favorite games:</p>
+				<p class="text-large mb-24">Super Mario Sunshine | Return of the Obra Dinn | Portal 2</p>
+			</i>
+		</div>
+	</div>
+{/if}
