@@ -107,14 +107,16 @@
 
 <!-- Team tab -->
 {#if selectedTab === 'team'}
-	<div class="grid grid-rows-1 grid-col-2 grid-flow-col place-content-center mt-6 space-x-24">
+	<div
+		class="grid grid-rows-2 lg:grid-rows-1 grid-col-1 lg:grid-col-2 grid-flow-col place-content-center mt-6 mb-24 space-y-2 lg:space-x-24 lg:space-y-0"
+	>
 		<div class="flex flex-col items-center text-center">
 			<img alt="Jeremy" src="team-jeremy.jpg" class="w-72 rounded-full" />
 			<p class="text-2xl">Jeremy Neville</p>
 			<p class="text-large mb-2">President</p>
 			<i
 				><p class="text-xl">Top 3 favorite games:</p>
-				<p class="text-large mb-24">Jak and Daxter | Half-Life: Alyx | Minecraft</p>
+				<p class="text-large">Jak and Daxter | Half-Life: Alyx | Minecraft</p>
 			</i>
 		</div>
 		<div class="flex flex-col items-center text-center">
@@ -123,7 +125,7 @@
 			<p class="text-large mb-2">Vice President</p>
 			<i
 				><p class="text-xl">Top 3 favorite games:</p>
-				<p class="text-large mb-24">Super Mario Sunshine | Return of the Obra Dinn | Portal 2</p>
+				<p class="text-large">Super Mario Sunshine | Return of the Obra Dinn | Portal 2</p>
 			</i>
 		</div>
 	</div>
