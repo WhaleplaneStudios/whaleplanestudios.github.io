@@ -108,7 +108,7 @@
 <!-- Team tab -->
 {#if selectedTab === 'team'}
 	<div
-		class="grid grid-rows-2 lg:grid-rows-1 grid-col-1 lg:grid-col-2 grid-flow-col place-content-center mt-6 mb-24 space-y-2 lg:space-x-24 lg:space-y-0"
+		class="grid grid-rows-3 lg:grid-rows-1 grid-col-1 lg:grid-col-2 grid-flow-col place-content-center mt-6 mb-24 space-y-2 lg:space-x-24 lg:space-y-0"
 	>
 		<div class="flex flex-col items-center text-center">
 			<img alt="Jeremy" src="team-jeremy.jpg" class="w-72 rounded-full" />
@@ -126,6 +126,15 @@
 			<i
 				><p class="text-xl">Top 3 favorite games:</p>
 				<p class="text-large">Super Mario Sunshine | Return of the Obra Dinn | Portal 2</p>
+			</i>
+		</div>
+		<div class="flex flex-col items-center text-center">
+			<img alt="Anders" src="team-anders.jpg" class="w-72 rounded-full" />
+			<p class="text-2xl">Anders Beckman</p>
+			<p class="text-large mb-2">Music Production</p>
+			<i
+				><p class="text-xl">Top 3 favorite games:</p>
+				<p class="text-large">Pokémon | MapleStory | Guild Wars 2</p>
 			</i>
 		</div>
 	</div>
