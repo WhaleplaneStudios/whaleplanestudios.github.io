@@ -17,7 +17,7 @@
 <div class="w-full items-center">
 	<img
 		alt="WhaleplaneStudios logo banner"
-		src={isScreenPortrait ? 'banner-mobile-2024.png' : 'banner-2024.png'}
+		src={isScreenPortrait ? 'top-banner-2025-mobile.png' : 'top-banner-2025-wide.png'}
 		class="mx-auto"
 	/>
 </div>
@@ -45,14 +45,14 @@
 		<!-- Social media links -->
 		<div class="justify-self-center lg:justify-self-end space-x-2">
 			<SocialMediaTooltipButton
+				link="https://store.steampowered.com/app/4117840/Gonzalo_the_Chicken__Episode_I/"
+				tooltipText="Wishlist on Steam!"
+				icon="mdi:steam"
+			/>
+			<SocialMediaTooltipButton
 				link="https://discord.gg/ggkatrDpmv"
 				tooltipText="Chat with us on Discord!"
 				icon="ic:baseline-discord"
-			/>
-			<SocialMediaTooltipButton
-				link="https://whaleplanestudios.itch.io/"
-				tooltipText="Play our games on itch.io!"
-				icon="cib:itch-io"
 			/>
 			<SocialMediaTooltipButton
 				link="https://www.youtube.com/channel/UCSk-EZSzULqEszKrE2j361Q"
@@ -60,14 +60,14 @@
 				icon="mdi:youtube"
 			/>
 			<SocialMediaTooltipButton
-				link="https://www.facebook.com/WhaleplaneStudios"
-				tooltipText="Like us on Facebook!"
-				icon="ic:baseline-facebook"
-			/>
-			<SocialMediaTooltipButton
 				link="https://www.instagram.com/whaleplanestudios/"
 				tooltipText="Follow us on Instagram!"
 				icon="ri:instagram-fill"
+			/>
+			<SocialMediaTooltipButton
+				link="https://www.facebook.com/WhaleplaneStudios"
+				tooltipText="Like us on Facebook!"
+				icon="ic:baseline-facebook"
 			/>
 		</div>
 	</div>
@@ -76,32 +76,36 @@
 <!-- Games tab -->
 {#if selectedTab === 'games'}
 	<!-- Games List -->
-	<div class="grid grid-rows-5 lg:grid-rows-2 grid-col-3 grid-flow-col place-content-center mt-6">
-		<div class="row-span-2">
+	<div class="flex flex-col items-center gap-4 p-4 max-w-5xl mx-auto">
+		<div class="w-full text-center">
 			<GameHoverButton
 				altText="Gonzalo the Chicken Episode 1"
 				hoveredImage="gonzalo-episode-1-hovered.png"
 				unhoveredImage="gonzalo-episode-1.png"
+				link="https://store.steampowered.com/app/4117840/Gonzalo_the_Chicken__Episode_I/"
 			/>
 		</div>
-		<GameHoverButton
-			altText="The Seven Seas"
-			hoveredImage="the-seven-seas-hovered.png"
-			unhoveredImage="the-seven-seas.png"
-			link="https://whaleplanestudios.itch.io/the-seven-seas"
-		/>
-		<GameHoverButton
-			altText="Rolliosis"
-			hoveredImage="rolliosis-hovered.png"
-			unhoveredImage="rolliosis.png"
-			link="https://whaleplanestudios.itch.io/rolliosis"
-		/>
-		<GameHoverButton
-			altText="Procedure"
-			hoveredImage="procedure-hovered.png"
-			unhoveredImage="procedure.png"
-			link="https://whaleplanestudios.itch.io/procedure"
-		/>
+
+		<div class="grid grid-cols-1 md:grid-cols-3 gap-4 w-full">
+			<GameHoverButton
+				altText="The Seven Seas"
+				hoveredImage="the-seven-seas-hovered.png"
+				unhoveredImage="the-seven-seas.png"
+				link="https://whaleplanestudios.itch.io/the-seven-seas"
+			/>
+			<GameHoverButton
+				altText="Rolliosis"
+				hoveredImage="rolliosis-hovered.png"
+				unhoveredImage="rolliosis.png"
+				link="https://whaleplanestudios.itch.io/rolliosis"
+			/>
+			<GameHoverButton
+				altText="Procedure"
+				hoveredImage="procedure-hovered.png"
+				unhoveredImage="procedure.png"
+				link="https://whaleplanestudios.itch.io/procedure"
+			/>
+		</div>
 	</div>
 {/if}
 

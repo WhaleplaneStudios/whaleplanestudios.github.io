@@ -11,7 +11,7 @@
 
 <Button
 	variant="image"
-	size="game_tile"
+	size="game_tile_hero"
 	href={link}
 	target="_blank"
 	on:mouseenter={() => (hovered = true)}

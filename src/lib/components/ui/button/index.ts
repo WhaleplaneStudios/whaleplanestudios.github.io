@@ -20,7 +20,8 @@ const buttonVariants = tv({
 			sm: "h-9 rounded-md px-3",
 			lg: "h-11 rounded-md px-8",
 			icon: "h-10 w-10 lg:h-20 lg:w-20 rounded-full",
-			game_tile: "w-80"
+			game_tile: "w-80",
+			game_tile_hero: "w-full"
 		},
 	},
 	defaultVariants: {
