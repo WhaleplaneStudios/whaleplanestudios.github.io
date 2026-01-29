@@ -60,6 +60,26 @@
 				icon="mdi:youtube"
 			/>
 			<SocialMediaTooltipButton
+				link="https://www.tiktok.com/@whaleplanestudios"
+				tooltipText="Follow us on TikTok!"
+				icon="ic:baseline-tiktok"
+			/>
+			<SocialMediaTooltipButton
+				link="https://x.com/Whaleplane"
+				tooltipText="Follow us on X!"
+				icon="fa7-brands:x-twitter"
+			/>
+			<SocialMediaTooltipButton
+				link="https://bsky.app/profile/whaleplanestudios.bsky.social"
+				tooltipText="Follow us on Bluesky!"
+				icon="mdi:cloud"
+			/>
+			<SocialMediaTooltipButton
+				link="https://www.threads.net/@whaleplanestudios"
+				tooltipText="Follow us on Threads!"
+				icon="mdi:at"
+			/>
+			<SocialMediaTooltipButton
 				link="https://www.instagram.com/whaleplanestudios/"
 				tooltipText="Follow us on Instagram!"
 				icon="ri:instagram-fill"
@@ -81,7 +101,7 @@
 			<GameHoverButton
 				altText="Gonzalo the Chicken Episode 1"
 				hoveredImage="gonzalo-episode-1-hovered.png"
-				unhoveredImage="gonzalo-episode-1.png"
+				unhoveredImage="gonzalo-episode-1.jpg"
 				link="https://store.steampowered.com/app/4117840/Gonzalo_the_Chicken__Episode_I/"
 			/>
 		</div>
