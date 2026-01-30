@@ -336,38 +336,86 @@
 				<h2>Contact Us</h2>
 				<p><a href="mailto:owners@whaleplanestudios.org">owners@whaleplanestudios.org</a></p>
 			</main>
-		</div>
 
-		<section class="media-scroller-section">
-			<div class="media-container">
+			<aside class="media-gallery">
 				<h3>Media Gallery</h3>
 				<div class="gallery-track">
+					<!-- Gameplay Trailer - Embed YouTube video -->
 					<div class="gallery-item">
-						<span class="placeholder-text">Screenshot 1</span>
+						<iframe
+							src="https://www.youtube.com/embed/3fBHZ1C54uI"
+							title="Gameplay Trailer"
+							frameborder="0"
+							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+							allowfullscreen
+							class="media-embed"
+						></iframe>
 					</div>
 
+					<!-- Screenshots -->
 					<div class="gallery-item">
-						<span class="placeholder-text">Screenshot 2</span>
+						<a href="presskit/1_ShooterVsBomb.png" download class="gallery-item">
+							<img src="presskit/1_ShooterVsBomb.png" alt="Shooter vs Bomb" class="media-image" />
+						</a>
 					</div>
-
 					<div class="gallery-item">
-						<span class="placeholder-text">Gameplay Trailer</span>
+						<a href="presskit/2_KingCrabClaws.png" download class="gallery-item">
+							<img src="presskit/2_KingCrabClaws.png" alt="King Crab Claws" class="media-image" />
+						</a>
 					</div>
-
 					<div class="gallery-item">
-						<span class="placeholder-text">Screenshot 3</span>
+						<a href="presskit/3_Shrug.png" download class="gallery-item">
+							<img src="presskit/3_Shrug.png" alt="Shrug" class="media-image" />
+						</a>
 					</div>
-
 					<div class="gallery-item">
-						<span class="placeholder-text">Screenshot 4</span>
+						<a href="presskit/4_Flutter.png" download class="gallery-item">
+							<img src="presskit/4_Flutter.png" alt="Flutter" class="media-image" />
+						</a>
 					</div>
-
 					<div class="gallery-item">
-						<span class="placeholder-text">Concept Art</span>
+						<a href="presskit/5_Warden.png" download class="gallery-item">
+							<img src="presskit/5_Warden.png" alt="Warden" class="media-image" />
+						</a>
+					</div>
+					<div class="gallery-item">
+						<a href="presskit/6_Snowman.png" download class="gallery-item">
+							<img src="presskit/6_Snowman.png" alt="Snowman" class="media-image" />
+						</a>
+					</div>
+					<div class="gallery-item">
+						<a href="presskit/7_SneakAttack.png" download class="gallery-item">
+							<img src="presskit/7_SneakAttack.png" alt="Sneak Attack" class="media-image" />
+						</a>
+					</div>
+					<div class="gallery-item">
+						<a href="presskit/8_KingCrab.png" download class="gallery-item">
+							<img src="presskit/8_KingCrab.png" alt="King Crab" class="media-image" />
+						</a>
+					</div>
+					<div class="gallery-item">
+						<a href="presskit/9_SewerRun.png" download class="gallery-item">
+							<img src="presskit/9_SewerRun.png" alt="Sewer Run" class="media-image" />
+						</a>
+					</div>
+					<div class="gallery-item">
+						<a href="presskit/10_Floaters.png" download class="gallery-item">
+							<img src="presskit/10_Floaters.png" alt="Floaters" class="media-image" />
+						</a>
+					</div>
+					<div class="gallery-item">
+						<a href="presskit/11_KingCrabBlasted.png" download class="gallery-item">
+							<img src="presskit/11_KingCrabBlasted.png" alt="King Crab" class="media-image" />
+						</a>
+					</div>
+					<div class="gallery-item">
+						<a href="presskit/12_Checkpoint.png" download class="gallery-item">
+							<img src="presskit/12_Checkpoint.png" alt="Checkpoint" class="media-image" />
+						</a>
 					</div>
 				</div>
-			</div>
-		</section>
+			</aside>
+		</div>
 	</div>
 {/if}
 
@@ -391,7 +439,6 @@
 
 	.pk-container {
 		display: flex;
-		max-width: 1200px;
 		margin: 40px auto;
 		padding: 0 20px;
 		gap: 40px;
@@ -439,7 +486,7 @@
 	}
 
 	.pk-content {
-		flex: 1;
+		flex: 0 0 1200px;
 		background: #2a2a2a;
 		padding: 40px;
 		border-radius: 8px;
@@ -451,7 +498,7 @@
 		margin-top: 30px;
 		margin-bottom: 15px;
 		color: #fff;
-		font-size: 1.8rem;
+		font-size: 2.2rem;
 		border-bottom: 1px solid #444;
 		padding-bottom: 10px;
 	}
@@ -462,55 +509,61 @@
 
 	.pk-content p {
 		margin-bottom: 15px;
-		line-height: 1.6;
+		line-height: 1.8;
+		font-size: 1.1rem;
 	}
 
-	.media-scroller-section {
-		width: 100%;
-		background: #222;
-		padding: 50px 0;
-		margin-top: 40px;
-		color: #fff;
+	.media-gallery {
+		flex: 1;
+		min-width: 350px;
+		position: -webkit-sticky;
+		position: sticky;
+		top: 20px;
+		align-self: flex-start;
+		background: #2a2a2a;
+		padding: 20px;
+		border-radius: 8px;
+		box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+		max-height: 90vh;
+		overflow-y: hidden;
 	}
 
-	.media-container {
-		max-width: 1200px;
-		margin: 0 auto;
-		padding: 0 20px;
-	}
-
-	.media-container h3 {
+	.media-gallery h3 {
 		margin-bottom: 20px;
 		font-size: 1.5rem;
+		color: #fff;
+		border-bottom: 2px solid #444;
+		padding-bottom: 10px;
 	}
 
 	.gallery-track {
 		display: flex;
+		flex-direction: column;
 		gap: 20px;
-		overflow-x: auto;
-		scroll-snap-type: x mandatory;
-		padding-bottom: 20px;
+		overflow-y: auto;
+		max-height: calc(90vh - 100px);
+		padding-right: 10px;
 		-webkit-overflow-scrolling: touch;
 	}
 
 	.gallery-track::-webkit-scrollbar {
-		height: 12px;
+		width: 8px;
 	}
 	.gallery-track::-webkit-scrollbar-track {
 		background: #333;
-		border-radius: 6px;
+		border-radius: 4px;
 	}
 	.gallery-track::-webkit-scrollbar-thumb {
 		background: #ff8c42;
-		border-radius: 6px;
-		border: 3px solid #333;
+		border-radius: 4px;
+		border: 2px solid #333;
 	}
 
 	.gallery-item {
 		flex: 0 0 auto;
-		width: 400px;
+		width: 100%;
+		max-width: 1200px;
 		aspect-ratio: 16/9;
-		scroll-snap-align: center;
 		background-color: #444;
 		border-radius: 8px;
 		overflow: hidden;
@@ -525,18 +578,46 @@
 		font-weight: bold;
 	}
 
-	@media (max-width: 768px) {
+	.media-image {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		display: block;
+	}
+
+	.media-embed {
+		width: 100%;
+		height: 100%;
+		border: none;
+	}
+
+	@media (max-width: 1200px) {
 		.pk-container {
 			flex-direction: column;
 		}
-		.factsheet {
+		.factsheet,
+		.media-gallery {
 			flex: none;
 			width: 100%;
 			position: relative;
 			top: 0;
+			max-height: none;
+		}
+		.gallery-track {
+			flex-direction: row;
+			overflow-x: auto;
+			overflow-y: hidden;
+			max-height: none;
+			padding-bottom: 20px;
+			padding-right: 0;
+		}
+		.gallery-track::-webkit-scrollbar {
+			height: 12px;
+			width: auto;
 		}
 		.gallery-item {
 			width: 85vw;
+			flex-shrink: 0;
 		}
 	}
 </style>
