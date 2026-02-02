@@ -259,7 +259,9 @@
 			</aside>
 
 			<main class="pk-content">
-				<h2>Gonzalo the Chicken - Episode I</h2>
+				<div class="presskit-banner mb-4">
+					<img src="presskit/Banner_1200x400.png" alt="Press Kit Banner" class="w-full rounded" />
+				</div>
 				<p>
 					Gonzalo the Chicken is a single player adventure platformer where you navigate a unique
 					world with a mysterious past in the midst of a great war. Use your chatty, retrievable
