@@ -272,7 +272,48 @@
 					and the Dryads in the forests of Noxglade. It's time for this chicken to cross the road...
 					and blow up everything on the other side!
 				</p>
-
+				<div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
+					<a
+						href="presskit/1_bombthrow.gif"
+						download
+						class="block rounded overflow-hidden bg-black"
+					>
+						<img
+							src="presskit/1_bombthrow.gif"
+							alt="Bomb throw GIF"
+							class="w-full h-full object-cover"
+						/>
+					</a>
+					<a
+						href="presskit/2_crabdodge.gif"
+						download
+						class="block rounded overflow-hidden bg-black"
+					>
+						<img
+							src="presskit/2_crabdodge.gif"
+							alt="Crab dodge GIF"
+							class="w-full h-full object-cover"
+						/>
+					</a>
+					<a
+						href="presskit/4_platforms.gif"
+						download
+						class="block rounded overflow-hidden bg-black"
+					>
+						<img
+							src="presskit/4_platforms.gif"
+							alt="Platforms GIF"
+							class="w-full h-full object-cover"
+						/>
+					</a>
+					<a href="presskit/3_kickcroc.gif" download class="block rounded overflow-hidden bg-black">
+						<img
+							src="presskit/3_kickcroc.gif"
+							alt="Kicking Crocs GIF"
+							class="w-full h-full object-cover"
+						/>
+					</a>
+				</div>
 				<h2>Game Description</h2>
 				<p>
 					You are Gonzalo, flightless and hard-headed, exploring a mysterious world abandoned by an
