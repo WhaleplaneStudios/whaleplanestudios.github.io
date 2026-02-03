@@ -2,12 +2,35 @@
 	import GameHoverButton from '$lib/components/game-hover-button.svelte';
 	import SocialMediaTooltipButton from '$lib/components/social-media-tooltip-button.svelte';
 	import { Button } from '$lib/components/ui/button/index.js';
+	import { onMount } from 'svelte';
 
 	let innerWidth = 0;
 	let innerHeight = 0;
+	let selectedTab = 'games';
 
-	$: selectedTab = 'games';
 	$: isScreenPortrait = innerWidth * 1.33 <= innerHeight;
+
+	// Function to handle tab changes and update hash
+	function changeTab(tab: string) {
+		selectedTab = tab;
+		window.location.hash = tab === 'games' ? '' : tab;
+	}
+
+	// Read hash on mount and when hash changes
+	function updateTabFromHash() {
+		const hash = window.location.hash.slice(1); // Remove the '#'
+		if (hash === 'team' || hash === 'presskit') {
+			selectedTab = hash;
+		} else {
+			selectedTab = 'games';
+		}
+	}
+
+	onMount(() => {
+		updateTabFromHash();
+		window.addEventListener('hashchange', updateTabFromHash);
+		return () => window.removeEventListener('hashchange', updateTabFromHash);
+	});
 </script>
 
 <!-- Record the current screen size for image switching -->
@@ -33,19 +56,19 @@
 				size="icon"
 				variant={selectedTab === 'games' ? 'default' : 'outline'}
 				class="text-2xl min-w-fit px-3"
-				on:click={() => (selectedTab = 'games')}>Our Games</Button
+				on:click={() => changeTab('games')}>Our Games</Button
 			>
 			<Button
 				size="icon"
 				variant={selectedTab === 'team' ? 'default' : 'outline'}
 				class="text-2xl min-w-fit px-3"
-				on:click={() => (selectedTab = 'team')}>Our Team</Button
+				on:click={() => changeTab('team')}>Our Team</Button
 			>
 			<Button
 				size="icon"
 				variant={selectedTab === 'presskit' ? 'default' : 'outline'}
 				class="text-2xl min-w-fit px-3"
-				on:click={() => (selectedTab = 'presskit')}>Press Kit</Button
+				on:click={() => changeTab('presskit')}>Press Kit</Button
 			>
 		</div>
 		<!-- Social media links -->
