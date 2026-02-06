@@ -84,6 +84,11 @@
 				icon="ic:baseline-discord"
 			/>
 			<SocialMediaTooltipButton
+				link="https://www.instagram.com/whaleplanestudios/"
+				tooltipText="Follow us on Instagram!"
+				icon="ri:instagram-fill"
+			/>
+			<SocialMediaTooltipButton
 				link="https://www.youtube.com/channel/UCSk-EZSzULqEszKrE2j361Q"
 				tooltipText="Watch our videos on YouTube!"
 				icon="mdi:youtube"
@@ -109,11 +114,6 @@
 				icon="mdi:at"
 			/>
 			<SocialMediaTooltipButton
-				link="https://www.instagram.com/whaleplanestudios/"
-				tooltipText="Follow us on Instagram!"
-				icon="ri:instagram-fill"
-			/>
-			<SocialMediaTooltipButton
 				link="https://www.facebook.com/WhaleplaneStudios"
 				tooltipText="Like us on Facebook!"
 				icon="ic:baseline-facebook"
@@ -130,7 +130,7 @@
 			<GameHoverButton
 				altText="Gonzalo the Chicken Episode 1"
 				hoveredImage="gonzalo-episode-1-hovered.png"
-				unhoveredImage="gonzalo-episode-1.jpg"
+				unhoveredImage="gonzalo-episode-1.png"
 				link="https://store.steampowered.com/app/4117840/Gonzalo_the_Chicken__Episode_I/"
 			/>
 		</div>
@@ -198,6 +198,21 @@
 	<div class="press-kit-content">
 		<div class="pk-container">
 			<aside class="factsheet">
+				<h2>Press Kit</h2>
+				<span class="fact-data"
+					><a
+						href="https://drive.google.com/drive/folders/1VVSluDB3tAIIx4Zm4pbwGR9HKF3ZKJ10?usp=drive_link"
+						target="_blank">Google Drive</a
+					></span
+				>
+				<span class="fact-data"
+					><a
+						href="https://drive.usercontent.google.com/download?id=1-hDuKO3fyGTc0EIiIs2izLDAiTnz7ulH&export=download&authuser=0"
+						target="_blank">Download as .zip</a
+					></span
+				>
+				<br />
+
 				<h2>Factsheet</h2>
 
 				<div class="fact-block">
@@ -218,7 +233,7 @@
 
 				<div class="fact-block">
 					<span class="fact-label">Genre</span>
-					<span class="fact-data">Adventure Platformer</span>
+					<span class="fact-data">Action-Adventure Platformer</span>
 				</div>
 
 				<div class="fact-block">
@@ -233,15 +248,15 @@
 
 				<div class="fact-block">
 					<span class="fact-label">Art Style</span>
-					<span class="fact-data">Cartoon Bright Low Poly</span>
+					<span class="fact-data">Stylized | Low Poly <br /> Pixel Art Textures</span>
 				</div>
 
 				<div class="fact-block">
-					<span class="fact-label">Steam Page</span>
+					<span class="fact-label">Steam Store Page</span>
 					<span class="fact-data"
 						><a
 							href="https://store.steampowered.com/app/4117840/Gonzalo_the_Chicken__Episode_I/"
-							target="_blank">Store Link</a
+							target="_blank">Gonzalo the Chicken - Episode I</a
 						></span
 					>
 				</div>
@@ -249,7 +264,7 @@
 				<div class="fact-block">
 					<span class="fact-label">Discord</span>
 					<span class="fact-data"
-						><a href="https://discord.gg/ggkatrDpmv" target="_blank">Join Discord</a></span
+						><a href="https://discord.gg/ggkatrDpmv" target="_blank">Join Our Discord</a></span
 					>
 				</div>
 
@@ -385,22 +400,34 @@
 					your mind, literally. Get ready to cluck, chuck, and kaboom your way to victory.
 				</p>
 
-				<h2>Who is WhaleplaneStudios?</h2>
+				<h2>About WhaleplaneStudios</h2>
 				<p>
-					Jeremy and Jake, the two man team behind WhaleplaneStudios, have been friends since high
-					school. Gonzalo the Chicken started as a small hobby project in 2020, but after several
-					iterations and reworks, we are excited to finally have this opportunity to publish our
-					first complete game. Our friend Anders has composed an incredible soundtrack for the game
-					that really brings it to a new level. Jeremy and Jake grew up on games like Jak and Daxter
-					and the famous 3D Mario platformers and wanted to create something that starts to echo the
-					style of these masterpieces with a fresh take. We may be a small part-time studio, but we
-					aspire to make great games that we have fun playing ourselves.
+					We are Jeremy and Jake, the two man team behind WhaleplaneStudios, and we have been
+					friends since high school. Gonzalo the Chicken started as a small hobby project in 2020,
+					but after several iterations and reworks, we are excited to finally have this opportunity
+					to publish our first complete game. We have always aspired to make great games that we
+					have fun playing ourselves, and we've had a blast with Gonzalo the Chicken. Our friend
+					Anders has composed an incredible soundtrack for the game that really brings it to a new
+					level. We grew up on games like Jak and Daxter and the famous 3D Mario platformers and
+					wanted to create something that starts to echo the style of these masterpieces with a
+					fresh take.
 				</p>
-				<!--Need to figure out tense here ^ "have been friends" but then immediately "we are excited"-->
-				<!--Maybe start with "We are Jeremy Neville and Jake Facius, the two man team..."-->
 
 				<h2>Contact Us</h2>
 				<p><a href="mailto:owners@whaleplanestudios.org">owners@whaleplanestudios.org</a></p>
+				<br />
+				<span class="fact-data"
+					><a
+						href="https://drive.google.com/drive/folders/1VVSluDB3tAIIx4Zm4pbwGR9HKF3ZKJ10?usp=drive_link"
+						target="_blank">Google Drive</a
+					></span
+				>
+				<span class="fact-data"
+					><a
+						href="https://drive.usercontent.google.com/download?id=1-hDuKO3fyGTc0EIiIs2izLDAiTnz7ulH&export=download&authuser=0"
+						target="_blank">Download as .zip</a
+					></span
+				>
 			</main>
 
 			<aside class="media-gallery">
