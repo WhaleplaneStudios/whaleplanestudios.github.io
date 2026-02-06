@@ -684,6 +684,54 @@
 		border: none;
 	}
 
+	/* Tweak layout specifically for common 1920x1080 displays so it visually matches 2560x1440
+       but slightly smaller to fit everything. Does not affect mobile (<=1200px) or larger 2560px+ */
+	@media (min-width: 1600px) and (max-width: 1920px) {
+		.pk-container {
+			gap: 24px;
+			margin: 32px auto;
+			padding: 0 16px;
+		}
+
+		.factsheet {
+			flex: 0 0 260px;
+			padding: 16px;
+			max-height: 85vh;
+		}
+
+		.factsheet h2 {
+			font-size: 1.35rem;
+		}
+
+		.pk-content {
+			flex: 0 0 1000px;
+			padding: 30px;
+		}
+
+		.pk-content h2 {
+			font-size: 2rem;
+		}
+
+		.pk-content p {
+			font-size: 1.03rem;
+		}
+
+		.media-gallery {
+			min-width: 320px;
+			padding: 16px;
+			max-height: 85vh;
+		}
+
+		.gallery-track {
+			gap: 16px;
+			max-height: calc(85vh - 80px);
+		}
+
+		.gallery-item {
+			max-width: 1000px;
+		}
+	}
+
 	@media (max-width: 1200px) {
 		.pk-container {
 			flex-direction: column;
