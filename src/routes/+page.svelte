@@ -686,7 +686,7 @@
 
 	/* Tweak layout specifically for common 1920x1080 displays so it visually matches 2560x1440
        but slightly smaller to fit everything. Does not affect mobile (<=1200px) or larger 2560px+ */
-	@media (min-width: 1600px) and (max-width: 1920px) {
+	@media (min-width: 1500px) and (max-width: 1920px) {
 		.pk-container {
 			gap: 24px;
 			margin: 32px auto;
@@ -732,7 +732,7 @@
 		}
 	}
 
-	@media (max-width: 1200px) {
+	@media (max-width: 900px) {
 		.pk-container {
 			flex-direction: column;
 		}
