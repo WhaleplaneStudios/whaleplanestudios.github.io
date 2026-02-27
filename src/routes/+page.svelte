@@ -312,41 +312,41 @@
 				</p>
 				<div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
 					<a
-						href="presskit/1_bombthrow.gif"
+						href="presskit/1_jumpdodge.gif"
 						download
 						class="block rounded overflow-hidden bg-black"
 					>
 						<img
-							src="presskit/1_bombthrow.gif"
+							src="presskit/1_jumpdodge.gif"
 							alt="Bomb throw GIF"
 							class="w-full h-full object-cover"
 						/>
 					</a>
 					<a
-						href="presskit/2_crabdodge.gif"
+						href="presskit/2_bombthrow.gif"
 						download
 						class="block rounded overflow-hidden bg-black"
 					>
 						<img
-							src="presskit/2_crabdodge.gif"
+							src="presskit/2_bombthrow.gif"
 							alt="Crab dodge GIF"
-							class="w-full h-full object-cover"
-						/>
-					</a>
-					<a
-						href="presskit/4_platforms.gif"
-						download
-						class="block rounded overflow-hidden bg-black"
-					>
-						<img
-							src="presskit/4_platforms.gif"
-							alt="Platforms GIF"
 							class="w-full h-full object-cover"
 						/>
 					</a>
 					<a href="presskit/3_kickcroc.gif" download class="block rounded overflow-hidden bg-black">
 						<img
 							src="presskit/3_kickcroc.gif"
+							alt="Platforms GIF"
+							class="w-full h-full object-cover"
+						/>
+					</a>
+					<a
+						href="presskit/4_crumblingplatforms.gif"
+						download
+						class="block rounded overflow-hidden bg-black"
+					>
+						<img
+							src="presskit/4_crumblingplatforms.gif"
 							alt="Kicking Crocs GIF"
 							class="w-full h-full object-cover"
 						/>
@@ -436,7 +436,7 @@
 					<!-- Gameplay Trailer - Embed YouTube video -->
 					<div class="gallery-item">
 						<iframe
-							src="https://www.youtube.com/embed/3fBHZ1C54uI"
+							src="https://www.youtube.com/embed/g2VywUCs6sk"
 							title="Gameplay Trailer"
 							frameborder="0"
 							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
