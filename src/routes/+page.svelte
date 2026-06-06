@@ -74,7 +74,7 @@
 		<!-- Social media links -->
 		<div class="justify-self-center lg:justify-self-end space-x-2">
 			<SocialMediaTooltipButton
-				link="https://store.steampowered.com/app/4117840/Gonzalo_the_Chicken__Episode_I/"
+				link="https://store.steampowered.com/app/4117840/Gonzalo_the_Chicken/"
 				tooltipText="Wishlist on Steam!"
 				icon="mdi:steam"
 			/>
@@ -128,10 +128,10 @@
 	<div class="flex flex-col items-center gap-4 p-4 max-w-5xl mx-auto">
 		<div class="w-full text-center">
 			<GameHoverButton
-				altText="Gonzalo the Chicken Episode 1"
-				hoveredImage="gonzalo-episode-1-hovered.png"
-				unhoveredImage="gonzalo-episode-1.png"
-				link="https://store.steampowered.com/app/4117840/Gonzalo_the_Chicken__Episode_I/"
+				altText="Gonzalo the Chicken"
+				hoveredImage="gonzalo-hovered.png"
+				unhoveredImage="gonzalo.png"
+				link="https://store.steampowered.com/app/4117840/Gonzalo_the_Chicken/"
 			/>
 		</div>
 
@@ -217,7 +217,7 @@
 
 				<div class="fact-block">
 					<span class="fact-label">Official Game Title</span>
-					<span class="fact-data">Gonzalo the Chicken - Episode I</span>
+					<span class="fact-data">Gonzalo the Chicken</span>
 				</div>
 
 				<div class="fact-block">
@@ -228,7 +228,7 @@
 
 				<div class="fact-block">
 					<span class="fact-label">Planned Release</span>
-					<span class="fact-data">Summer 2026</span>
+					<span class="fact-data">Fall 2026</span>
 				</div>
 
 				<div class="fact-block">
@@ -255,8 +255,8 @@
 					<span class="fact-label">Steam Store Page</span>
 					<span class="fact-data"
 						><a
-							href="https://store.steampowered.com/app/4117840/Gonzalo_the_Chicken__Episode_I/"
-							target="_blank">Gonzalo the Chicken - Episode I</a
+							href="https://store.steampowered.com/app/4117840/Gonzalo_the_Chicken/"
+							target="_blank">Gonzalo the Chicken</a
 						></span
 					>
 				</div>
@@ -275,8 +275,7 @@
 						></span
 					>
 					<span class="fact-data"
-						><a href="https://www.youtube.com/@whaleplanestudios5293" target="_blank">Youtube</a
-						></span
+						><a href="https://www.youtube.com/@whaleplanestudios" target="_blank">Youtube</a></span
 					>
 					<span class="fact-data"
 						><a href="https://www.tiktok.com/@whaleplanestudios" target="_blank">TikTok</a></span
@@ -436,7 +435,7 @@
 					<!-- Gameplay Trailer - Embed YouTube video -->
 					<div class="gallery-item">
 						<iframe
-							src="https://www.youtube.com/embed/g2VywUCs6sk"
+							src="https://www.youtube.com/embed/NgTh27RDyRc"
 							title="Gameplay Trailer"
 							frameborder="0"
 							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
