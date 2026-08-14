@@ -228,7 +228,7 @@
 
 				<div class="fact-block">
 					<span class="fact-label">Planned Release</span>
-					<span class="fact-data">Fall 2026</span>
+					<span class="fact-data">Early 2027</span>
 				</div>
 
 				<div class="fact-block">
