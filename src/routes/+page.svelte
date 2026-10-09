@@ -238,7 +238,7 @@
 
 				<div class="fact-block">
 					<span class="fact-label">Platform</span>
-					<span class="fact-data">PC</span>
+					<span class="fact-data">PC | Steam Deck/SteamOS | Linux</span>
 				</div>
 
 				<div class="fact-block">
@@ -252,11 +252,16 @@
 				</div>
 
 				<div class="fact-block">
-					<span class="fact-label">Steam Store Page</span>
+					<span class="fact-label">Steam Store Pages</span>
 					<span class="fact-data"
 						><a
 							href="https://store.steampowered.com/app/4117840/Gonzalo_the_Chicken/"
 							target="_blank">Gonzalo the Chicken</a
+						>
+						<br />
+						<a
+							href="https://store.steampowered.com/app/5226990/Gonzalo_the_Chicken_Demo/"
+							target="_blank">Gonzalo the Chicken Demo</a
 						></span
 					>
 				</div>
@@ -300,14 +305,10 @@
 					<img src="presskit/Banner_1200x400.png" alt="Press Kit Banner" class="w-full rounded" />
 				</div>
 				<p>
-					Gonzalo the Chicken is a single player adventure platformer where you navigate a unique
-					world with a mysterious past in the midst of a great war. Use your chatty, retrievable
-					bomb companion, Azzar, to fight the Crocogator army. Collect all of Azzar's exciting
-					mutations like fire, homing, and sticky in order to solve puzzles and take out a variety
-					of strong enemies and challenging bosses. The world's bright, low-poly art style takes
-					Gonzalo through wild environments with unique enemies including the crabs of Claw Island
-					and the Dryads in the forests of Noxglade. It's time for this chicken to cross the road...
-					and blow up everything on the other side!
+					This chicken is crossing the road... to blow up everything on the other side! Throw
+					Gonzalo's loud-mouthed explosive sidekick Azzar at the Crocogator horde, and then use a
+					magic glove to retrieve him. He holds on tight while you flutter through mountains and
+					beaches and forests, oh my!
 				</p>
 				<div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
 					<a
@@ -352,51 +353,46 @@
 					</a>
 				</div>
 				<h2>Game Description</h2>
+				<p><strong>Endless Explosions</strong></p>
 				<p>
-					You are Gonzalo, flightless and hard-headed, exploring a mysterious world abandoned by an
-					ancient creator. Team up with Azzar, a retrievable bomb companion whose firepower makes up
-					for all the yapping. Blow up enemies with various bomb mutations, traverse obstacles with
-					ridiculous movement mechanics, and fight back against the terrifying Crocogator army. If
-					you are worthy, you can get recruited by the Noctuans, a faction of no-nonsense owl
-					creatures, who will only allow you to add to your destructive capabilities.
+					Throw your retrievable bomb companion Azzar at hordes of nasty enemies by consuming
+					collectible bomb goo (that he eats?) to unleash his explosive potential. Retrieve Azzar
+					after you throw him so you can throw him again for limitless destruction... and don&#39;t
+					worry, he&#39;s into it. His devastating firepower tries to make up for all the yapping
+					while you explore this mysterious world abandoned by an ancient creator. Experiment by
+					blowing up even more enemies with various bomb mutations like fire, homing, and sticky
+					bomb upgrades, and then leverage them to solve puzzles, take out stronger enemies, and
+					even exploit boss weaknesses.
 				</p>
-
+				<p><strong>Poultry Power</strong></p>
 				<p>
-					Gonzalo is a tough chicken who is not clucking around. If enemies are too close for
-					comfort, hit them with a combo or ground pound to push back a full flock of Crocogators.
-					Flap your arms to stay in the air a little longer and go a little farther. Dodge and dive
-					to get away fast and cross longer gaps. Master these mechanics to carefully explore
-					ancient secrets, or not so carefully blast to the finish line and beat the par time in
-					each level.
+					You play as Gonzalo: flightless, hard-headed, and stuck with Azzar for now, but this
+					chicken does not cluck around! If enemies are too close for comfort, hit them with a combo
+					or ground pound to push back a full flock of Crocogators. Flap your arms to stay in the
+					air a little longer and go a little farther. Use your dodge and air dive to get away fast,
+					cross longer gaps, or traverse obstacles that require ridiculous movement chains. Master
+					these mechanics to carefully explore ancient secrets, but don&#39;t forget to
+					not-so-carefully use Azzar if you need to blast through obstacles to get to the finish
+					line and beat the par time in each level.
 				</p>
-
+				<p><strong>Fearsome Feather Fodder Foes</strong></p>
 				<p>
-					As the Crocogators increase in strength and numbers, you will need some more firepower to
-					defeat them. Throw Azzar at hordes of nasty enemies by consuming collectible bomb goo
-					(that he eats?) to unleash his explosive potential. Feed him mutations like fire, homing,
-					and sticky bomb upgrades to solve puzzles, tackle stronger enemies, and even defeat
-					bosses. Don't forget to retrieve Azzar after you throw him so you can throw him again for
-					limitless destruction... and don't worry, he's into it.
+					They made fried chicken out of your family, so you must fight back against the relentless
+					Crocogator army. They rip, tear, bash, shoot, and burn through anything in their way. If
+					you can catch a break from them, a menagerie of other deadly creatures like snowmen,
+					crabs, and dryads are waiting for you. You think you have what it takes? Good, because
+					there&#39;s also a lineup of monstrous bosses waiting to test your limits.
 				</p>
-
+				<p><strong>Shiny Stuff &amp; Squeaky Secrets</strong></p>
 				<p>
-					Crocogators will rip, tear, bash, shoot, and burn through anything in their way. If you
-					can catch a break from those, a menagerie of other deadly creatures like snowmen, crabs,
-					and dryads are waiting for you. You think you have what it takes? Good, because there's
-					also a series of crazy bosses you must also defeat throughout your journey.
+					Search for secret eggs in each level and collect as many coins as you can to unlock
+					fireworks, pickup magnets, infinite bomb goo, and... squeaky boots? Order everything on
+					our Breakfast Menu to completely transform your experience and replay the game with
+					hilarious setting combinations and unstoppable bomb mutations.
 				</p>
-
 				<p>
-					If that's not enough, there is still a full plate of collectibles that unlock a variety of
-					special abilities for your adventure. Fireworks, pickup magnets, infinite bomb goo...
-					squeaky boots? If that sounds enticing, then search for secret eggs in each level and
-					collect as many coins as you can. Order everything on our Breakfast Menu to completely
-					transform your experience and replay the game with hilarious setting combinations.
-				</p>
-
-				<p>
-					Are you ready to cause some poultry pandemonium? Gonzalo and Azzar are waiting to blow
-					your mind, literally. Get ready to cluck, chuck, and kaboom your way to victory.
+					Ready to cause some poultry pandemonium? Gonzalo and Azzar are waiting to blow your mind,
+					literally. Get ready to cluck, chuck, and kaboom your way to victory!
 				</p>
 
 				<h2>About WhaleplaneStudios</h2>
@@ -435,7 +431,7 @@
 					<!-- Gameplay Trailer - Embed YouTube video -->
 					<div class="gallery-item">
 						<iframe
-							src="https://www.youtube.com/embed/NgTh27RDyRc"
+							src="https://www.youtube.com/embed/DW0byoiK5UY"
 							title="Gameplay Trailer"
 							frameborder="0"
 							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -446,63 +442,83 @@
 
 					<!-- Screenshots -->
 					<div class="gallery-item">
-						<a href="presskit/1_ShooterVsBomb.png" download class="gallery-item">
-							<img src="presskit/1_ShooterVsBomb.png" alt="Shooter vs Bomb" class="media-image" />
+						<a href="presskit/ApproachingShip.png" download class="gallery-item">
+							<img src="presskit/ApproachingShip.png" alt="Approaching Ship" class="media-image" />
 						</a>
 					</div>
 					<div class="gallery-item">
-						<a href="presskit/2_KingCrabClaws.png" download class="gallery-item">
-							<img src="presskit/2_KingCrabClaws.png" alt="King Crab Claws" class="media-image" />
+						<a href="presskit/SmokeTrails.png" download class="gallery-item">
+							<img src="presskit/SmokeTrails.png" alt="Smoke Trails" class="media-image" />
 						</a>
 					</div>
 					<div class="gallery-item">
-						<a href="presskit/3_Shrug.png" download class="gallery-item">
-							<img src="presskit/3_Shrug.png" alt="Shrug" class="media-image" />
+						<a href="presskit/CrocExplosion.png" download class="gallery-item">
+							<img src="presskit/CrocExplosion.png" alt="Croc Explosion" class="media-image" />
 						</a>
 					</div>
 					<div class="gallery-item">
-						<a href="presskit/4_Flutter.png" download class="gallery-item">
-							<img src="presskit/4_Flutter.png" alt="Flutter" class="media-image" />
+						<a href="presskit/Retrieval.png" download class="gallery-item">
+							<img src="presskit/Retrieval.png" alt="Retrieval" class="media-image" />
 						</a>
 					</div>
 					<div class="gallery-item">
-						<a href="presskit/5_Warden.png" download class="gallery-item">
-							<img src="presskit/5_Warden.png" alt="Warden" class="media-image" />
+						<a href="presskit/Flutter.png" download class="gallery-item">
+							<img src="presskit/Flutter.png" alt="Flutter" class="media-image" />
 						</a>
 					</div>
 					<div class="gallery-item">
-						<a href="presskit/6_Snowman.png" download class="gallery-item">
-							<img src="presskit/6_Snowman.png" alt="Snowman" class="media-image" />
+						<a href="presskit/ShieldKick.png" download class="gallery-item">
+							<img src="presskit/ShieldKick.png" alt="Shield Kick" class="media-image" />
 						</a>
 					</div>
 					<div class="gallery-item">
-						<a href="presskit/7_SneakAttack.png" download class="gallery-item">
-							<img src="presskit/7_SneakAttack.png" alt="Sneak Attack" class="media-image" />
+						<a href="presskit/Warden.png" download class="gallery-item">
+							<img src="presskit/Warden.png" alt="Warden" class="media-image" />
 						</a>
 					</div>
 					<div class="gallery-item">
-						<a href="presskit/8_KingCrab.png" download class="gallery-item">
-							<img src="presskit/8_KingCrab.png" alt="King Crab" class="media-image" />
+						<a href="presskit/KeyDoor.png" download class="gallery-item">
+							<img src="presskit/KeyDoor.png" alt="Key Door" class="media-image" />
 						</a>
 					</div>
 					<div class="gallery-item">
-						<a href="presskit/9_SewerRun.png" download class="gallery-item">
-							<img src="presskit/9_SewerRun.png" alt="Sewer Run" class="media-image" />
+						<a href="presskit/YetiFire.png" download class="gallery-item">
+							<img src="presskit/YetiFire.png" alt="Yeti Fire" class="media-image" />
 						</a>
 					</div>
 					<div class="gallery-item">
-						<a href="presskit/10_Floaters.png" download class="gallery-item">
-							<img src="presskit/10_Floaters.png" alt="Floaters" class="media-image" />
+						<a href="presskit/CrocArmy.png" download class="gallery-item">
+							<img src="presskit/CrocArmy.png" alt="Croc Army" class="media-image" />
 						</a>
 					</div>
 					<div class="gallery-item">
-						<a href="presskit/11_KingCrabBlasted.png" download class="gallery-item">
-							<img src="presskit/11_KingCrabBlasted.png" alt="King Crab" class="media-image" />
+						<a href="presskit/ShooterMissed.png" download class="gallery-item">
+							<img src="presskit/ShooterMissed.png" alt="Shooter Missed" class="media-image" />
 						</a>
 					</div>
 					<div class="gallery-item">
-						<a href="presskit/12_Checkpoint.png" download class="gallery-item">
-							<img src="presskit/12_Checkpoint.png" alt="Checkpoint" class="media-image" />
+						<a href="presskit/FireRetrieval.png" download class="gallery-item">
+							<img src="presskit/FireRetrieval.png" alt="Fire Retrieval" class="media-image" />
+						</a>
+					</div>
+					<div class="gallery-item">
+						<a href="presskit/SnowmanKick.png" download class="gallery-item">
+							<img src="presskit/SnowmanKick.png" alt="Snowman Kick" class="media-image" />
+						</a>
+					</div>
+					<div class="gallery-item">
+						<a href="presskit/Spoons.png" download class="gallery-item">
+							<img src="presskit/Spoons.png" alt="Spoons" class="media-image" />
+						</a>
+					</div>
+					<div class="gallery-item">
+						<a href="presskit/Helicrocter.png" download class="gallery-item">
+							<img src="presskit/Helicrocter.png" alt="Helicrocter" class="media-image" />
+						</a>
+					</div>
+					<div class="gallery-item">
+						<a href="presskit/SadSnowman.png" download class="gallery-item">
+							<img src="presskit/SadSnowman.png" alt="SadSnowman" class="media-image" />
 						</a>
 					</div>
 				</div>
